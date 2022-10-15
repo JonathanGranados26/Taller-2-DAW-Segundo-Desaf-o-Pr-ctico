@@ -1,0 +1,40 @@
+#titulo{
+    text-align: center;
+    background-color: #081B30;
+    color: #FFF;
+    padding: 30px;
+    font-size: 5em;
+    height: 80px;
+    box-shadow: inset 5px 5px 20px 30px #030914;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 4px 4px rgb(150, 48, 233);
+}
+
+td, tr{
+    border-style:ridge;
+}
+#btnEnviar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#factura{
+    display: none;
+    margin: 20px;
+    border-radius: 1rem;
+    border: solid;
+    height: auto;
+    width: 250px;
+    background-color: rgb(95, 177, 180);
+}
+#factura h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-style: italic;
+    text-shadow: 2px 1px 2px rgb(201, 231, 116);
+}
+
+

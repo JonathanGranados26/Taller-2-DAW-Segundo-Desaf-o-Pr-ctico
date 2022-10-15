@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+}
+
+#title{
+    margin: 5% 20% 5% 20%;
+    padding: 1%;
+    text-align: center;
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    color: white;
+}
+
+div{
+    text-align: center;
+    margin: 5% 20% 5% 20%;
+    box-shadow: -10px 10px 15px #343535, 10px 10px 15px #d4d3d3;
+
+}
+
+tr{
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    color: white;
+}

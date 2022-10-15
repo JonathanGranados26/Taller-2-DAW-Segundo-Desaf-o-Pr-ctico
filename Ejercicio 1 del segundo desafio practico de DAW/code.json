@@ -1,0 +1,37 @@
+ {
+    "peliculas": [
+        {
+            "Nombre": "The Greatest Beer Run Ever",
+            "Director": "Peter Farrelly",
+            "Clasificacion": "Bélico/Drama",
+            "Duracion": "2h 6m",
+            "butacas":"Asiento fijo",
+            "Horarios":"9:00 Am"
+        },
+        {
+            "Nombre": "El teléfono del señor Harrigan",
+            "Director": "John Lee Hancock",
+            "Clasificacion": "Accion",
+            "Duracion": "1h 46m",
+            "butacas":"Tapizado",
+            "Horarios":"11:00 AM"
+        },
+        {
+            "Nombre": "Pinocho",
+            "Director": "Robert Zemeckis",
+            "Clasificacion": "Infantil/Aventura ",
+            "Duracion": "1h 45m",
+            "butacas":"Tradicional",
+            "Horarios":"2:00 PM"
+        },
+        {
+            "Nombre": "Red",
+            "Director": "Domee Shi",
+            "Clasificacion": "Infantil/Comedia ",
+            "Duracion": "1h 40m",
+            "butacas":"Tradicional",
+            "Horarios":"4:00 PM"
+        }
+    ]
+ }
+

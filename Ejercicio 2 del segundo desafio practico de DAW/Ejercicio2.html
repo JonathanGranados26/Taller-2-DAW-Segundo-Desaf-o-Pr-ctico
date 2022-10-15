@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Don Bosco</title>
+    <link rel="stylesheet" href="css/PaginaStyleEjercicio2.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">ORDEN DE POLLO</h1>
+    </header>
+
+    <form name="menu">
+        <fieldset>
+            <legend>Combos y productos</legend>
+        
+            <p>Combos:</p>
+            <input class="productos" name="combos" type="radio" id="combosSuper" value="Super Combo - $7.25">Super combo
+            <input class="productos" name="combos" type="radio" id="combosPersonal" value="Combo personal - $5.75">Combo personal
+            <input class="productos" name="combos" type="radio" id="combosInfantil" value="Combo infantil - $3.50">Combo infantil
+
+            <p>Productos:</p>
+            <input class="productos" id="Ensalada" type="checkbox" value="Ensalada - $1.50">Ensalada
+            <input class="productos" id="PapasFritas" type="checkbox" value="Papas fritas - $1.25">Papas fritas
+            <input class="productos" id="PiezaGrande" type="checkbox" value="Pieza de pollo grande - $1.75">Pieza de pollo grande
+            <input class="productos" id="PiezaMediana" type="checkbox" value="Pieza de pollo mediana - $1.50">Pieza de pollo mediana
+            <input class="productos" id="PiezaPequenia" type="checkbox" value="Pieza de pollo pequeña- $1.25">Pieza de pollo pequeña
+            <input class="productos" id="BebidaGrande" type="checkbox" value="Bebida grande - $1.50">Bebida grande
+            <input class="productos" id="BebidaMediana" type="checkbox" value="Bebida grande - $1.25">Bebida mediana
+            <input class="productos" id="BebidaPequenia" type="checkbox" value="Bebida pequeña - $1.00">Bebida pequeña
+            <input class="productos" id="Cafe" type="checkbox" value="Cafe - $0.50">Café
+            <input class="productos" id="Postre" type="checkbox" value="Postre - $1.25">Postre
+            <p>Sugerencias:</p>
+            <div id="vista"></div>
+            <textarea id="txtComenatarios" cols="200" rows="10"></textarea>
+            <p>Total a pagar: $<input type="text" size="3" step="0.25" id="txtTotalPagar"></p>
+        </fieldset>
+    </form>
+    <section>
+        <article>
+            <form name="menu">
+                <input id="btnEnviar" type="button" value="Enviar" onclick="validar()">
+                <div>
+                    <table>
+                        <tr>
+                            <td>No.</td>
+                            <td>Producto</td>
+                            <td>Precio ($)</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Ensalada</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Papas fritas</td>
+                            <td>1.25</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Pieza de pollo grande</td>
+                            <td>1.75</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Pieza de pollo mediana</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Pieza de pollo pequeña</td>
+                            <td>1.25</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Bebida grande</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Bebida mediana</td>
+                            <td>1.25</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Bebida pequeña</td>
+                            <td>1.00</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Café</td>
+                            <td>0.50</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Postre</td>
+                            <td>1.25</td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </article>
+    </section>
+
+    <div id="factura">
+        <h1>Factura</h1>
+        <ol id="registro"></ol>
+        <div id="registroDePrecio"></div>
+    </div>
+
+</body>
+<script src="Ejercicio2.js"></script>
+</html>
